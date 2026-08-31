@@ -5,6 +5,31 @@
 //  Created by Aleksandar on 23. 7. 2026..
 //
 
+/*******************************************************************
+ *  Zadatak 3.14 — Uredivanje kolona matrice po zbirovima kolona   *
+ *                                                                 *
+ *  Program preureduje kolone pravougaone matrice sa realnim       *
+ *  elementima tako da zbirovi elemenata po kolonama budu u        *
+ *  neopadajucem redosledu. Obraduje se proizvoljan broj matrica.  *
+ *                                                                 *
+ *  Prvo se izracuna zbir svake kolone i smesti u pomocni niz.     *
+ *  Zatim se taj niz uredi metodom izbora, s tim sto se pri svakoj *
+ *  zameni zbirova zamenjuju i odgovarajuce kolone matrice — tako  *
+ *  matrica prati raspored svojih zbirova.                         *
+ *                                                                 *
+ *  m, n? 3 5                                                      *
+ *   0. vrsta? 2 7 3 5 4                                           *
+ *   1. vrsta? 7 2 5 4 1                                           *
+ *   2. vrsta? 6 3 1 2 3                                           *
+ *                                                                 *
+ *  Uredjena matrica:                                              *
+ *    4.00  3.00  5.00  7.00  2.00                                 *
+ *    1.00  5.00  4.00  2.00  7.00                                 *
+ *    3.00  1.00  2.00  3.00  6.00                                 *
+ *    ---------------------------------                            *
+ *    8.00  9.00 11.00 12.00 15.00                                 *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 
