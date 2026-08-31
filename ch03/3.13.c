@@ -5,6 +5,24 @@
 //  Created by Aleksandar on 23. 7. 2026..
 //
 
+/*******************************************************************
+ *  Zadatak 3.13 — Transponovanje kvadratne matrice                *
+ *                                                                 *
+ *  Transponovana matrica se dobija kad vrste pocetne matrice      *
+ *  postanu njene kolone. Program transponuje kvadratnu matricu    *
+ *  sa realnim elementima i obraduje proizvoljan broj matrica.     *
+ *                                                                 *
+ *  Transponovanje se radi u mestu: svaki element a[i][j] iznad    *
+ *  glavne dijagonale zameni mesto sa svojim simetricnim           *
+ *  elementom a[j][i] ispod nje. Unutrasnja petlja zato krece od   *
+ *  j = i+1 — da se svaki par zameni tacno jednom i da elementi    *
+ *  na dijagonali ostanu netaknuti.                                *
+ *                                                                 *
+ *  Kad bi se prolazila cela matrica, svaka zamena bi se izvrsila  *
+ *  dvaput i matrica bi ostala nepromenjena.                       *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
