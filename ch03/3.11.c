@@ -5,6 +5,24 @@
 //  Created by Aleksandar on 20. 7. 2026..
 //
 
+/*******************************************************************
+ *  Zadatak 3.11 a) — Fuzija dva uredena niza u novi niz           *
+ *                                                                 *
+ *  Program spaja dva niza celih brojeva, uredena po               *
+ *  neopadajucem redosledu, u treci niz koji je uredeni na isti    *
+ *  nacin. Obraduje se proizvoljan broj kompleta ulaznih           *
+ *  podataka.                                                      *
+ *                                                                 *
+ *  Oba niza se prolaze istovremeno, od pocetka. U svakom koraku   *
+ *  se uporeduju tekuci elementi, manji se upisuje u rezultat, a   *
+ *  indeks niza iz kog je uzet pomera se dalje. Kad se jedan niz   *
+ *  iscrpi, ostatak drugog se prosto dopisuje na kraj.             *
+ *                                                                 *
+ *  A: 2 4 5 7 7 8                                                 *
+ *  B: 1 3 5 9 9                                                   *
+ *  C: 1 2 3 4 5 5 7 7 8 9 9                                       *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 
