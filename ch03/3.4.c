@@ -5,6 +5,21 @@
 //  Created by Aleksandar on 19. 7. 2026..
 //
 
+/*******************************************************************
+ *  Zadatak 3.4 — Najmanji element niza                            *
+ *                                                                 *
+ *  Program nalazi vrednost najmanjeg elementa u nizu realnih      *
+ *  brojeva. Nizovi se citaju i obraduju sve dok se za duzinu      *
+ *  niza ne unese nedozvoljena vrednost (n <= 0 ili n > N_MAX).    *
+ *                                                                 *
+ *  Prvi element se uzme za pocetni minimum, pa se ostatak niza    *
+ *  prode i minimum azurira kad se naide na manju vrednost.        *
+ *                                                                 *
+ *  n? 5                                                           *
+ *  A? 8 3 6 2 3                                                   *
+ *  min= 2.00                                                      *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 
