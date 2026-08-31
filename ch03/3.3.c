@@ -5,6 +5,22 @@
 //  Created by Aleksandar on 19. 7. 2026..
 //
 
+/*******************************************************************
+ *  Zadatak 3.3 — Skalarni proizvod dva vektora                    *
+ *                                                                 *
+ *  Program cita dva vektora zadate duzine sa realnim              *
+ *  komponentama, racuna njihov skalarni proizvod i ispisuje       *
+ *  rezultat. Postupak se ponavlja sve dok se za duzinu vektora    *
+ *  ne unese nedozvoljena vrednost (n <= 0 ili n > DIM).           *
+ *                                                                 *
+ *      s = suma a[i] * b[i], za i = 0 do n-1                      *
+ *                                                                 *
+ *  Duzina vektora (najvise 50)? 5                                 *
+ *  Komponente vektora A? 1 2 3 4 5                                *
+ *  Komponente vektora B? 5 4 3 2 1                                *
+ *  Skalarni proizvod A*B=     35.000                              *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 
