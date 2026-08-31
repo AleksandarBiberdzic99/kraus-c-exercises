@@ -5,6 +5,18 @@
 //  Created by Aleksandar on 20. 7. 2026..
 //
 
+/*******************************************************************
+ *  Zadatak 3.8 b) — Izostavljanje vise elemenata niza             *
+ *                                                                 *
+ *  Program izbacuje iz niza zadati broj uzastopnih elemenata,     *
+ *  pocev od zadate pozicije. Obraduje se proizvoljan broj         *
+ *  kompleta ulaznih podataka.                                     *
+ *                                                                 *
+ *  Elementi iza izbacenog dela pomeraju se ka pocetku za onoliko  *
+ *  mesta koliko je elemenata uklonjeno, a duzina niza se za       *
+ *  toliko smanjuje.                                               *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 
