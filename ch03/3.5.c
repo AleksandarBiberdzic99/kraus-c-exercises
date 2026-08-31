@@ -5,6 +5,22 @@
 //  Created by Aleksandar on 19. 7. 2026..
 //
 
+/*******************************************************************
+ *  Zadatak 3.5 — Obrtanje redosleda elemenata niza                *
+ *                                                                 *
+ *  Program obrce redosled elemenata niza realnih brojeva: prvi    *
+ *  element menja mesto s poslednjim, drugi s pretposlednjim i     *
+ *  tako redom. Nizovi se citaju i obraduju sve dok se za duzinu   *
+ *  niza ne unese nedozvoljena vrednost (n <= 0 ili n > N_MAX).    *
+ *                                                                 *
+ *  Zamena se radi u mestu, sa dva indeksa koji krecu sa krajeva   *
+ *  niza i pomeraju se jedan ka drugome dok se ne sretnu.          *
+ *                                                                 *
+ *  n? 5                                                           *
+ *  A? 1 2 3 4 5                                                   *
+ *  A= 5.00 4.00 3.00 2.00 1.00                                    *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 
