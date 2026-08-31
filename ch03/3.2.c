@@ -5,6 +5,24 @@
 //  Created by Aleksandar on 19. 7. 2026..
 //
 
+/*******************************************************************
+ *  Zadatak 3.2 — Srednja vrednost odabranih elemenata niza        *
+ *                                                                 *
+ *  Program cita niz celih brojeva i racuna srednju vrednost samo  *
+ *  onih elemenata koji su deljivi sa tri. Postupak se ponavlja    *
+ *  sve dok se za duzinu niza ne unese nedozvoljena vrednost       *
+ *  (n <= 0 ili n > 100).                                          *
+ *                                                                 *
+ *  n? 10                                                          *
+ *  A? 1 2 3 4 5 6 7 8 9 0                                         *
+ *  s= 4.500000                                                    *
+ *                                                                 *
+ *  Ako nijedan element nije deljiv sa tri, brojac ostaje nula i   *
+ *  deljenje se preskace da ne bi doslo do deljenja nulom.         *
+ *                                                                 *
+ *  Verzija sa nizom nepromenljive duzine (a[100]).                *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 
