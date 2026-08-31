@@ -5,6 +5,20 @@
 //  Created by Aleksandar on 22. 7. 2026..
 //
 
+/*******************************************************************
+ *  Zadatak 3.11 b) — Fuzija dva uredena niza u prvi niz           *
+ *                                                                 *
+ *  Kao pod a), ali se rezultat smesta u prvi od dva niza, uz      *
+ *  ocuvanje uredenosti. Obraduje se proizvoljan broj kompleta     *
+ *  ulaznih podataka.                                              *
+ *                                                                 *
+ *  Posto se pise u isti niz iz kog se cita, spajanje ide od       *
+ *  kraja: rezultat se popunjava unazad, pocev od poslednjeg       *
+ *  mesta, pa se elementi prvog niza ne prepisuju pre nego sto     *
+ *  budu iskorisceni. Prvi niz mora imati mesta za sve elemente.   *
+ *******************************************************************/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
