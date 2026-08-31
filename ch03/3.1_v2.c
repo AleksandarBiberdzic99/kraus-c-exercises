@@ -5,6 +5,21 @@
 //  Created by Aleksandar on 19. 7. 2026..
 //
 
+/*******************************************************************
+ *  Zadatak 3.1 — Tabeliranje vrednosti polinoma                   *
+ *                                                                 *
+ *  Polinom je zadat nizom koeficijenata. Program racuna i         *
+ *  ispisuje njegove vrednosti za x u opsegu od xmin do xmax,      *
+ *  s korakom dx.                                                  *
+ *                                                                 *
+ *  Ulaz: red polinoma n, koeficijenti, pa xmin, xmax i dx.        *
+ *  Izlaz: tabela parova x i p(x).                                 *
+ *                                                                 *
+ *  Vrednost se racuna Hornerovom shemom:                          *
+ *      p = (...((a[n]*x + a[n-1])*x + a[n-2])*x + ... + a[0])     *
+ *  cime se izbegava stepenovanje — n mnozenja i n sabiranja.      *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 
