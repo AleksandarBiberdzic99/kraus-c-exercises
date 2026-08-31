@@ -5,6 +5,25 @@
 //  Created by Aleksandar on 20. 7. 2026..
 //
 
+/*******************************************************************
+ *  Zadatak 3.9 — Umetanje niza u drugi niz                        *
+ *                                                                 *
+ *  Program umece sadrzaj jednog niza celih brojeva u drugi, pocev *
+ *  od zadate pozicije. Ako je pozicija manja od nule, umetanje    *
+ *  ide ispred prvog elementa; ako je veca od duzine odredisnog    *
+ *  niza, iza poslednjeg. Obraduje se proizvoljan broj kompleta    *
+ *  ulaznih podataka.                                              *
+ *                                                                 *
+ *  Postupak ima dva koraka. Prvo se elementi odredisnog niza,     *
+ *  pocev od kraja pa unazad, pomeraju unapred za duzinu drugog    *
+ *  niza — time se oslobada prostor tacno na mestu umetanja.       *
+ *  Zatim se elementi drugog niza prekopiraju na ta oslobodena     *
+ *  mesta, a duzina odredisnog niza se uveca za n.                 *
+ *                                                                 *
+ *  Pomeranje ide unazad da se elementi ne bi prepisali pre nego   *
+ *  sto budu premesteni.                                           *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 
