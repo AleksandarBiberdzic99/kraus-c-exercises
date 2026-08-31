@@ -5,6 +5,22 @@
 //  Created by Aleksandar on 19. 7. 2026..
 //
 
+/*******************************************************************
+ *  Zadatak 3.8 a) — Izostavljanje jednog elementa niza            *
+ *                                                                 *
+ *  Program izbacuje iz niza element na zadatoj poziciji p.        *
+ *  Obraduje se proizvoljan broj kompleta ulaznih podataka.        *
+ *                                                                 *
+ *  Svi elementi od pozicije p+1 nadalje pomeraju se za jedno      *
+ *  mesto prema pocetku, cime se element na poziciji p prepisuje.  *
+ *  Duzina niza se zatim smanjuje za jedan.                        *
+ *                                                                 *
+ *  n? 8                                                           *
+ *  A? 3 2 5 8 3 2 3 4                                             *
+ *  p? 2                                                           *
+ *  A= 3 2 8 3 2 3 4                                               *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 
