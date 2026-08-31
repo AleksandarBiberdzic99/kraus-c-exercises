@@ -5,6 +5,18 @@
 //  Created by Aleksandar on 20. 7. 2026..
 //
 
+/*******************************************************************
+ *  Zadatak 3.8 c) — Izostavljanje elemenata zadate vrednosti      *
+ *                                                                 *
+ *  Program izbacuje iz niza sve elemente koji imaju zadatu        *
+ *  vrednost. Obraduje se proizvoljan broj kompleta ulaznih        *
+ *  podataka.                                                      *
+ *                                                                 *
+ *  Niz se prolazi jednom: elementi razliciti od trazene vrednosti *
+ *  prepisuju se na prvo slobodno mesto u istom nizu, a nova       *
+ *  duzina je broj tako zadrzanih elemenata.                       *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 
