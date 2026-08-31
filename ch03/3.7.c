@@ -5,6 +5,23 @@
 //  Created by Aleksandar on 19. 7. 2026..
 //
 
+/*******************************************************************
+ *  Zadatak 3.7 — Razvrstavanje elemenata niza u dva niza          *
+ *                                                                 *
+ *  Program deli ulazni niz celih brojeva na dva niza: u prvi      *
+ *  idu negativni elementi, u drugi svi ostali. Obraduje se        *
+ *  proizvoljan broj kompleta ulaznih podataka, sve dok se za      *
+ *  duzinu niza ne unese nedozvoljena vrednost.                    *
+ *                                                                 *
+ *  Svaki od nizova ima sopstveni brojac popunjenosti, pa se       *
+ *  element upisuje na prvo slobodno mesto u odgovarajucem nizu.   *
+ *                                                                 *
+ *  n? 5                                                           *
+ *  A? 1 -2 3 -4 5                                                 *
+ *  B= -2 -4                                                       *
+ *  C= 1 3 5                                                       *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 
