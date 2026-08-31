@@ -5,6 +5,23 @@
 //  Created by Aleksandar on 22. 7. 2026..
 //
 
+/*******************************************************************
+ *  Zadatak 3.12 — Uredivanje niza metodom izbora                  *
+ *                                                                 *
+ *  Program cita duzinu niza, popunjava ga slucajnim jednocifrenim *
+ *  celim brojevima, ispisuje pocetni niz, uredi ga po             *
+ *  neopadajucem redosledu i ispisuje rezultat. Postupak se        *
+ *  ponavlja sve dok se za duzinu niza ne unese nedozvoljena       *
+ *  vrednost.                                                      *
+ *                                                                 *
+ *  U i-tom prolazu (i = 0, 1, ..., n-2) na i-to mesto se dovodi   *
+ *  najmanji element od i-tog mesta do kraja niza. To se postize   *
+ *  uporedivanjem a[i] sa svim elementima iza njega i zamenom kad  *
+ *  se naide na manji.                                             *
+ *                                                                 *
+ *  Ispis je organizovan po 30 brojeva u redu.                     *
+ *******************************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
